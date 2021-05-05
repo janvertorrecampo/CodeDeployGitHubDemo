@@ -4,8 +4,6 @@ files:
   - source: /index.html
     destination: /var/www/html/
 hooks:
-  BeforeBlockTraffic:
-    - location: scripts/test
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
