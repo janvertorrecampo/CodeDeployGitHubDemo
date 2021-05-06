@@ -1,2 +1,2 @@
 #!/bin/bash
-systemctl apache2 start
+systemctl start apache2
